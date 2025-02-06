@@ -1,0 +1,45 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.list-items {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 5px 4px 5px 0px rgba(0,0,0,0.2);
+    gap: 1rem;
+}
+
+
+.list-items div {
+    margin: auto;   
+}
+
+.icons {
+    display: flex;
+    cursor: pointer;  
+    gap: 20px;
+    align-items: center;
+    color: rgb(70, 70, 70);;
+}
+
+.icons p:hover {
+    color: #202020;
+    
+}
+
+.icons p {
+     text-decoration: none;
+}
+
+.todos {
+    word-break: break-all;
+    text-align: center;
+}
+
+

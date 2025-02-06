@@ -1,0 +1,42 @@
+:root {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+    background-color:rgb(180, 201, 194);
+    padding-top: 1rem ;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.input-field {
+    margin-block: 1rem;
+}
+
+.task-count {
+    color: gray;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1rem;
+    gap:1rem;
+    padding-bottom: 1rem;
+}
+
+.input-task-counter {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
